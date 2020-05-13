@@ -1,0 +1,33 @@
+
+body {
+    background-image: url('https://wallpaperplay.com/walls/full/5/c/a/304144.jpg');
+    background-size: auto 100vh;
+    font-family: 'Helvetica Neue';
+    height: 100vh;
+  }
+  .menuprincipal,
+  .barrasuperior{
+    background-color: pink;
+    font-family: "Arial";
+  }
+  .menuprincipal li,
+  .barrasuperior li{
+    list-style: none;
+  }
+  .menuprincipal ul,
+  .barrasuperior ul{
+    display:flex;
+    justify-content: space-around;
+  }
+  a{
+    color: DeepPink;
+    text-decoration:none;
+  }
+  a:hover{
+    text-decoration:underline;
+  }
+  .site-title{
+    color: DeepPink;
+    text-align:center;
+  }
+  
